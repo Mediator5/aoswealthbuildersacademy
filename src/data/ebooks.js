@@ -8,6 +8,8 @@ export const ebookData = [
     number: "01",
     title: "The Business Launch Blueprint\u2122",
     subtitle: "Build a legitimate, fundable business from the ground up.",
+    price: 29.99,
+    priceId: "price_business_launch",
     icon: "rocket",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663515986369/cLqtuYNCan8XYHGrJu9rg8/ebook1-cover-kyQpUpTYzGeFq9PCw7RDxT.webp",
     introduction: [
@@ -72,7 +74,9 @@ export const ebookData = [
     id: "funding",
     number: "02",
     title: "The Funding Blueprint\u2122",
-    subtitle: "Unlock capital and position your business for approvals.",
+    subtitle: "Position your business for funding approvals and smart capital.",
+    price: 34.99,
+    priceId: "price_funding",
     icon: "dollar",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663515986369/cLqtuYNCan8XYHGrJu9rg8/ebook2-cover-Xa4TtBmzhomZBptuzLRJqX.webp",
     introduction: [
@@ -133,7 +137,9 @@ export const ebookData = [
     id: "asset-acquisition",
     number: "03",
     title: "The Asset Acquisition Blueprint\u2122",
-    subtitle: "Leverage your business to acquire vehicles and assets the smart way.",
+    subtitle: "Leverage your business to acquire vehicles and income-generating assets.",
+    price: 39.99,
+    priceId: "price_asset_acquisition",
     icon: "shield",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663515986369/cLqtuYNCan8XYHGrJu9rg8/ebook3-cover-DNbcqEh7Spm6kVnUmqBgWQ.webp",
     introduction: [

@@ -130,11 +130,16 @@ export default function BlueprintsPage() {
                     ))}
                   </div>
 
+                  <div className="flex items-center gap-4 mb-6">
+                    <span className="text-2xl font-extrabold text-neutral-900">${bp.price.toFixed(2)}</span>
+                    <span className="text-xs text-neutral-400 font-medium uppercase tracking-wide">One-time payment</span>
+                  </div>
+
                   <Link
-                    href={`/ebook/${bp.id}`}
+                    href={`/checkout/${bp.id}`}
                     className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-white bg-brand-600 rounded-xl hover:bg-brand-700 transition-all duration-200 shadow-sm"
                   >
-                    Read Full Blueprint
+                    Purchase Blueprint
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="14"

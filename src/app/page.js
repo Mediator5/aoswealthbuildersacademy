@@ -41,7 +41,7 @@ const whyChooseUs = [
   {
     title: "Real-World Strategies",
     description: "These are not theories from a textbook. These are proven strategies used by real entrepreneurs building real wealth.",
-    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1553729459-uj4872c3d0f5?w=600&h=400&fit=crop",
   },
   {
     title: "Complete System",
@@ -155,9 +155,8 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {ebookData.map((bp) => (
-              <Link
+              <div
                 key={bp.id}
-                href={`/ebook/${bp.id}`}
                 className="group bg-white rounded-2xl border border-neutral-200 overflow-hidden hover:border-brand-200 hover:shadow-lg hover:shadow-brand-100/40 transition-all duration-300"
               >
                 <div className="aspect-[4/3] bg-neutral-100 flex items-center justify-center p-8 overflow-hidden">
@@ -173,12 +172,18 @@ export default function HomePage() {
                   <span className="text-xs font-bold text-brand-600 tracking-widest uppercase">E-Book {bp.number}</span>
                   <h3 className="text-lg font-bold text-neutral-900 mt-2 group-hover:text-brand-700 transition-colors">{bp.title}</h3>
                   <p className="text-sm text-neutral-500 mt-2 leading-relaxed">{bp.subtitle}</p>
-                  <p className="text-sm font-semibold text-brand-600 mt-4 inline-flex items-center gap-1 group-hover:gap-2 transition-all">
-                    Read Blueprint
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
-                  </p>
+                  <div className="flex items-center justify-between mt-4">
+                    <span className="text-lg font-extrabold text-neutral-900">${bp.price.toFixed(2)}</span>
+                    <Link
+                      href={`/checkout/${bp.id}`}
+                      className="inline-flex items-center gap-1 px-4 py-2 text-xs font-semibold text-white bg-brand-600 rounded-lg hover:bg-brand-700 transition-all"
+                    >
+                      Get Access
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+                    </Link>
+                  </div>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
         </div>
