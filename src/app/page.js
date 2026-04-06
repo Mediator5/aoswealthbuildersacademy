@@ -41,7 +41,7 @@ const whyChooseUs = [
   {
     title: "Real-World Strategies",
     description: "These are not theories from a textbook. These are proven strategies used by real entrepreneurs building real wealth.",
-    image: "https://images.unsplash.com/photo-1553729459-uj4872c3d0f5?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop",
   },
   {
     title: "Complete System",

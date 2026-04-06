@@ -10,7 +10,7 @@ export const metadata = {
 
 /* Contextual images for each blueprint section */
 const blueprintImages = [
-  "https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=600&h=400&fit=crop",
+  "https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop",
   "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=600&h=400&fit=crop",
   "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop",
 ];
