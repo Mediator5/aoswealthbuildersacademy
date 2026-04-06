@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import SuccessContent from "@/components/SuccessContent";
 
 export const metadata = {
@@ -6,5 +7,10 @@ export const metadata = {
 };
 
 export default function SuccessPage() {
-  return <SuccessContent />;
+  return (
+    <Suspense fallback={/* loading spinner */}>
+      <SuccessContent />
+    </Suspense>
+  );
 }
+
