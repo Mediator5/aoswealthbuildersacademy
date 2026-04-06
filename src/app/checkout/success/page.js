@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function SuccessPage() {
   return (
-    <Suspense fallback={/* loading spinner */}>
+    <Suspense fallback={''}>
       <SuccessContent />
     </Suspense>
   );
