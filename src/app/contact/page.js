@@ -60,10 +60,10 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <a
-                  href="mailto:mdigital1196@gmail.com"
+                  href="mailto:info@aosimpactacademy.com"
                   className="text-sm font-medium text-brand-600 hover:text-brand-700 transition-colors"
                 >
-                  mdigital1196@gmail.com
+                  info@aosimpactacademy.com
                 </a>
               </div>
 

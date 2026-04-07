@@ -33,7 +33,7 @@ export async function POST(request) {
     // Email to site owner
     await transporter.sendMail({
       from: `"AOS Wealth Builders Academy" <${process.env.GMAIL_USER}>`,
-      to: "mdigital1196@gmail.com",
+      to: "info@aosimpactacademy.com",
       replyTo: email,
       subject: `[Website Contact] ${subject}`,
       html: `
